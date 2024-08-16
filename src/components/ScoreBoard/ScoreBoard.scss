@@ -1,0 +1,50 @@
+@import '../../styles/global';
+
+.table-container {
+  display: grid;
+  justify-items: center;
+  background-color: rgba(184, 184, 231, 0.566);
+  width: 60vw;
+  height: max-content;
+  position: relative;
+  font-family: "Raleway";
+  border: solid 8px $border-color-gray;
+  align-items: flex-start;
+  align-content: flex-start;
+  padding:20px;
+
+  @media (max-width: 800px) {
+    width: 90vw;
+  }
+}
+
+.table {
+  width: 55vw;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin:0 0 20px;
+
+}
+
+.table th,
+.table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-right:solid 1px;
+}
+
+.table th {
+  background-color: #f0f0f0;
+  border-bottom: 2px solid #ddd;
+}
+
+.table td {
+  border-bottom: 1px solid #ddd;
+  background-color: $bg-color-gray
+}
+
+.table tbody tr:last-child td {
+  border-bottom: none;
+}
+

@@ -1,0 +1,49 @@
+$background-svg-path: "../assets/patternpad-bg.svg";
+$pixel-font: "Pixelify Sans", san-serif;
+$primary-font:"Raleway", san-serif;
+$button-color-blue: rgba(37, 61, 245, 0.824);
+$theme-color-dark: rgba(23, 33, 147, 0.968);
+$theme-color-purple: rgb(191, 81, 231);
+$theme-color-transparent: rgba(48, 47, 47, 0.518);
+$bg-color-gray: rgba(229, 229, 243, 0.738);
+$bg-color-overlay: rgba(0, 0, 0, 0.894);
+$border-color-gray: rgba(245, 245, 245, 0.659);
+
+.pixelify-sans-pixel-font {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+input {
+  border: none;
+  margin: 0 10px;
+  padding: 0 10px;
+  height: 45px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(160, 159, 159, 0.658);
+
+}
+
+button {
+  height: min-content;
+  padding: 10px;
+  border: solid 5px whitesmoke;
+  border-radius: 8px;
+  background-color: rgba(37, 61, 245, 0.824);
+  color: whitesmoke;
+  font-family: $pixel-font;
+  cursor: pointer;
+
+  &:disabled{
+    background-color: rgba(175, 175, 175, 0.621) !important;
+    cursor:not-allowed;
+  }
+}
+
+h1, h2, h3 {
+  color: whitesmoke;
+  font-family: $pixel-font;
+  margin-bottom:10px;
+}
