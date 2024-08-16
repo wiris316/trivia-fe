@@ -2,7 +2,7 @@
 
 ## Overview
 
-The is a real-time multiplayer Trivia game about cap tables with a retro gaming theme. Users can create or join games in the server, compete to answer questions first, and see real-time updates on a scoreboard and leaderboard. The frontend is developed using React and TypeScript, while the backend uses WebSockets for real-time communication and Axios for HTTP requests. Please refer to './fe/Decisions.md' for more information on development approach and decisions. 
+The is a real-time multiplayer Trivia game about cap tables with a retro gaming theme. Users can create or join games in the server, compete to answer questions first, and see real-time updates on a scoreboard and leaderboard. The frontend is developed using React and TypeScript, while the backend uses WebSockets for real-time communication and Axios for HTTP requests. Please refer to './DECISIONS.md' for more information on development approach and decisions. 
 
 ## Images / Screenshots
 
